@@ -2,7 +2,7 @@
 import { createResponse, selectConsistentChannel, getUploadIp, getIPAddress, buildUniqueFileId, endUpload } from './uploadTools';
 import { TelegramAPI } from '../utils/storage/telegramAPI';
 import { DiscordAPI } from '../utils/storage/discordAPI';
-import { S3Client, CreateMultipartUploadCommand, UploadPartCommand, AbortMultipartUploadCommand } from "@aws-sdk/client-s3";
+ 
 import { getDatabase, checkDatabaseConfig } from '../utils/databaseAdapter.js';
 import { fetchPageConfig } from '../utils/sysConfig.js';
 
