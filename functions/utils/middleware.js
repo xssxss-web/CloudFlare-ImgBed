@@ -1,4 +1,4 @@
-import sentryPlugin from "@cloudflare/pages-plugin-sentry";
+ 
  
 import { fetchOthersConfig } from "./sysConfig";
 import { checkDatabaseConfig as checkDbConfig } from './databaseAdapter.js';
