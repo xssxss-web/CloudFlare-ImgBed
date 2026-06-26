@@ -1,4 +1,4 @@
-import { S3Client, DeleteObjectCommand } from "@aws-sdk/client-s3";
+ 
 import { purgeCFCache, purgeRandomFileListCache, purgePublicFileListCache } from "../../../utils/purgeCache";
 import { removeFileFromIndex, batchRemoveFilesFromIndex } from "../../../utils/indexManager.js";
 import { getDatabase } from '../../../utils/databaseAdapter.js';
