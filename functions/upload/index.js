@@ -11,7 +11,7 @@ import { TelegramAPI } from "../utils/storage/telegramAPI";
 import { DiscordAPI } from "../utils/storage/discordAPI";
 import { HuggingFaceAPI } from "../utils/storage/huggingfaceAPI";
 import { WebDAVAPI } from "../utils/storage/webdavAPI";
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+ 
 import { getDatabase } from '../utils/databaseAdapter.js';
 
 
